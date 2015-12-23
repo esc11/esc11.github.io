@@ -1,13 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:400,500,300,400italic);
+
 @media screen and (max-width: 768px) {
 body {
-font-family:Brandon;
+font-family:'Rubik';
 font-weight:400;
 color:#222;
 text-align:center;
 }
 
 nav {
-font-family:'Brandon';
+font-family:'Rubik';
 padding:10px;
 }
 
@@ -27,7 +29,7 @@ width:auto;
 position:absolute;
 height:150px;
 top:17%;
-font-family:'Brandon';
+font-family:'Rubik';
 color:#fff;
 text-transform:uppercase;
 }
@@ -42,7 +44,7 @@ color:#fff;
 
 
 .mycontainer h1 {
-font-family:Brandon;
+font-family:Rubik;
 font-weight:300;
 font-size:2em;
 font-weight:500;
@@ -60,7 +62,7 @@ width:100%;
 }
 
 .projecttext h1 {
-font-family:'Brandon';
+font-family:'Rubik';
 z-index:90;
 top:50%;
 left:50%;
@@ -77,7 +79,7 @@ display:none;
 
 p {
 width:100%;
-font-family:'Brandon';
+font-family:'Rubik';
 font-weight:300;
 padding-left:1em;
 padding-right:1em;
@@ -99,7 +101,7 @@ display:none;
 }
 	
 .place {
-font-family:'Brandon';
+font-family:'Rubik';
 text-transform:uppercase;
 background-color:#222;
 color:#fff;
@@ -119,28 +121,10 @@ footer {
 height:50px;
 background-color:#222;
 }
-
-@font-face {
-font-family:Brandon;
-font-weight:300;
-src:url(fonts/Brandon_re.ttf);
-}
-
-@font-face {
-font-family:Brandon;
-font-weight:500;
-src:url(fonts/Brandon_bld.otf);
-}
-
-@font-face {
-font-family:Brandon;
-font-weight:700;
-src:url(fonts/Brandon_blk.otf);
-}
 }
 @media screen and (min-width: 768px) {
 body {
-font-family:Brandon;
+font-family:Rubik;
 font-weight:400;
 color:#222;
 text-align:center;
@@ -153,7 +137,7 @@ top:0;
 left:0;
 z-index:100;
 background-color:#fff;
-font-family:Brandon;
+font-family:Rubik;
 font-weight:500;
 height:60px;
 font-size:1.1em;
@@ -193,7 +177,7 @@ height:400px;
 top:55%;
 left:50%;
 transform:translate(-50%,-50%);
-font-family:Brandon;
+font-family:Rubik;
 color:#fff;
 text-transform:uppercase;
 }
@@ -201,7 +185,7 @@ text-transform:uppercase;
 #headtext h1 {
 font-size:3.45em;
 letter-spacing:4px;
-font-weight:700;
+font-weight:500;
 }
 
 #headtext h3 {
@@ -219,7 +203,7 @@ animation:bounce 2s infinite;
 }
 
 .mycontainer {
-font-family:Brandon;
+font-family:Rubik;
 font-weight:300;
 font-size:1.4em;
 padding-top:40px;
@@ -261,7 +245,7 @@ padding:10px;
 }
 
 .projecttext a:hover {
-bodyfont-family:Brandon;
+bodyfont-family:Rubik;
 font-weight:400;
 text-align:center;
 color:#fff;
@@ -352,24 +336,6 @@ margin-top:50px;
 height:50px;
 background-color:#222;
 }
-}
-
-@font-face {
-font-family:Brandon;
-font-weight:300;
-src:url(fonts/Brandon_re.ttf);
-}
-
-@font-face {
-font-family:Brandon;
-font-weight:500;
-src:url(fonts/Brandon_bld.otf);
-}
-
-@font-face {
-font-family:Brandon;
-font-weight:700;
-src:url(fonts/Brandon_blk.otf);
 }
 
 @-webkit-keyframes bounce {
