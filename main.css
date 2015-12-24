@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Rubik:400,500,300,400italic);
+@import url(https://fonts.googleapis.com/css?family=Rubik:700,400,500,300,400italic);
 
 @media screen and (max-width: 768px) {
 body {
@@ -10,6 +10,7 @@ text-align:center;
 
 nav {
 font-family:'Rubik';
+font-weight:500;
 padding:10px;
 }
 
@@ -21,14 +22,16 @@ header {
 background-image:url(img/IMG_8738.jpg);
 background-size:cover;
 -webkit-filter:grayscale(1) brightness(1.5);
+filter:grayscale(1) brightness(1.5);
 height:150px;
 width:auto;
 }
 
 #headtext {
 position:absolute;
-height:150px;
-top:17%;
+margin-left:auto;
+margin-right:auto;
+width:100%;
 font-family:'Rubik';
 color:#fff;
 text-transform:uppercase;
@@ -44,8 +47,8 @@ color:#fff;
 
 
 .mycontainer h1 {
-font-family:Rubik;
-font-weight:300;
+font-family:'Rubik';
+font-weight:400;
 font-size:2em;
 font-weight:500;
 padding:10px;
@@ -80,16 +83,17 @@ display:none;
 p {
 width:100%;
 font-family:'Rubik';
-font-weight:300;
+font-weight:400;
 padding-left:1em;
 padding-right:1em;
 }
 
 #map {
 position:relative;
-width:100%;
+width:80%;
 margin:auto;
-padding: 20px;
+left:16%;
+padding-bottom:20px;
 }
 
 .svg {
@@ -103,11 +107,14 @@ display:none;
 .place {
 display:block;
 font-family:'Rubik';
+font-weight:500;
+letter-spacing:2px;
 text-transform:uppercase;
 background-color:#222;
 color:#fff;
-padding:4px;
+padding:6px;
 width:60%;
+margin:-1px;
 }
 
 .biglink {
@@ -148,6 +155,7 @@ padding:17px 17px 17px 50px;
 
 nav a {
 -webkit-transition:all .7s ease;
+transition:all .7s ease;
 color:#222;
 margin-right:30px;
 padding:10px;
@@ -169,6 +177,7 @@ background-image:url(img/IMG_8738.jpg);
 background-size:cover;
 background-position:0 -200px;
 -webkit-filter:grayscale(1) brightness(1.5);
+filter:grayscale(1) brightness(1.5);
 height:350px;
 }
 
@@ -226,7 +235,9 @@ width:100%;
 
 .project img:hover,.projecttext:hover + img {
 -webkit-filter:grayscale(1) brightness(15%);
+filter:grayscale(1) brightness(15%);
 -webkit-transition:all 1s ease-out;
+transition:all 1s ease-out;
 }
 
 .projecttext {
@@ -252,6 +263,7 @@ text-align:center;
 color:#fff;
 background-color:#222;
 -webkit-transition:all 1s ease-out;
+transition:all 1s ease-out;
 text-decoration:none;
 }
 
@@ -284,6 +296,8 @@ animation:bounce 2s infinite;
 #sea {
 top:18.5%;
 left:14.5%;
+-webkit-backface-visibility: hidden;
+-webkit-transform: translateX(0);
 }
 
 #la {
@@ -320,6 +334,7 @@ transform:translate(-50%,-50%);
 
 .biglink {
 -webkit-transition:all .7s ease;
+transition:all 1s ease;
 border-bottom:thick dotted #222;
 color:#222;
 }
