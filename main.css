@@ -20,7 +20,7 @@ display:none;
 header {
 background-image:url(img/IMG_8738.jpg);
 background-size:cover;
-Rubik:grayscale(1) brightness(1.5);
+-webkit-filter:grayscale(1) brightness(1.5);
 height:150px;
 width:auto;
 }
@@ -101,6 +101,7 @@ display:none;
 }
 	
 .place {
+display:block;
 font-family:'Rubik';
 text-transform:uppercase;
 background-color:#222;
