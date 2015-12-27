@@ -88,6 +88,15 @@ padding-left:1em;
 padding-right:1em;
 }
 
+p a {
+border-bottom:thick dotted #222;
+color:#222;
+}
+
+p a {
+text-decoration:none;
+}
+
 #map {
 position:relative;
 width:80%;
@@ -132,7 +141,7 @@ background-color:#222;
 }
 @media screen and (min-width: 768px) {
 body {
-font-family:Rubik;
+font-family:'Rubik';
 font-weight:400;
 color:#222;
 text-align:center;
@@ -145,7 +154,7 @@ top:0;
 left:0;
 z-index:100;
 background-color:#fff;
-font-family:Rubik;
+font-family:'Rubik';
 font-weight:500;
 height:60px;
 font-size:1.1em;
@@ -173,7 +182,7 @@ height:60px;
 }
 
 header {
-background-image:url(img/IMG_8738.jpg);
+background-image:url(/img/IMG_8738.jpg);
 background-size:cover;
 background-position:0 -200px;
 -webkit-filter:grayscale(1) brightness(1.5);
@@ -187,7 +196,7 @@ height:400px;
 top:55%;
 left:50%;
 transform:translate(-50%,-50%);
-font-family:Rubik;
+font-family:'Rubik';
 color:#fff;
 text-transform:uppercase;
 }
@@ -213,7 +222,7 @@ animation:bounce 2s infinite;
 }
 
 .mycontainer {
-font-family:Rubik;
+font-family:'Rubik';
 font-weight:300;
 font-size:1.4em;
 padding-top:40px;
@@ -222,7 +231,6 @@ padding-bottom:10px;
 
 .mycontainer h1 {
 font-weight:500;
-padding-bottom:10px;
 }
 
 .project {
@@ -257,7 +265,7 @@ padding:10px;
 }
 
 .projecttext a:hover {
-bodyfont-family:Rubik;
+font-family:'Rubik';
 font-weight:400;
 text-align:center;
 color:#fff;
@@ -337,6 +345,7 @@ transform:translate(-50%,-50%);
 transition:all 1s ease;
 border-bottom:thick dotted #222;
 color:#222;
+font-weight:500;
 }
 
 .biglink:hover {
@@ -345,6 +354,33 @@ text-decoration:none;
 background-color:#222;
 border-bottom:none;
 padding:10px;
+}
+
+.projcontainer {
+text-align:left;
+}
+
+.projcontainer h1 {
+padding-left:2.7em;
+}
+
+.projcontainer p {
+padding-left:5em;
+padding-right:0em;
+}
+
+.projcontainer a {
+color:#222;
+border-bottom:dotted #222;
+}
+
+.projcontainer a:hover {
+border-bottom:none;
+text-decoration:none;
+}
+
+.col-sm-5 img {
+padding-bottom:10px;
 }
 
 footer {

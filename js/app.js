@@ -1,3 +1,5 @@
+'use strict';
+
 $(document).ready(function() {
 	if ($("header").css("height") == "350px" ){
 	    $(".projecttext, .place").css("display","none");
@@ -19,5 +21,16 @@ $(document).ready(function() {
 	        scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
 	    }, 600);
 	    return false;
+	});
+	$("a[href^='http']").attr('target','_blank');
+	$('.col-sm-4').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		closeOnContentClick: true,
+		mainClass: 'mfp-img-mobile',
+		image: {
+			verticalFit: true
+		}
+		
 	});
 });
