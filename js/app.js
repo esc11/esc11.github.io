@@ -15,6 +15,10 @@ $(document).ready(function() {
 		$(".pin").mouseleave(function() {
 			$(this).next().fadeOut(600);
 		});
+	} else {
+		$('.project img').click(function() {
+            window.location.href = this.id + '.html';
+        });
 	}
 	$('a').click(function(){
 	    $('html, body').animate({
