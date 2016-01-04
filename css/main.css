@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Hind:400,300,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Hind:400,300,500,700);
 
 @media screen and (max-width: 768px) {
 body {
 font-family:'Hind';
-font-weight:400;
+font-weight:300;
 color:#222;
 text-align:center;
 }
@@ -48,7 +48,7 @@ color:#fff;
 
 .mycontainer h1 {
 font-family:'Hind';
-font-weight:400;
+font-weight:300;
 font-size:2em;
 font-weight:700;
 padding:10px;
@@ -83,7 +83,7 @@ display:none;
 p {
 width:100%;
 font-family:'Hind';
-font-weight:400;
+font-weight:300;
 padding-left:1em;
 padding-right:1em;
 }
@@ -142,7 +142,7 @@ background-color:#222;
 @media screen and (min-width: 768px) {
 body {
 font-family:'Hind';
-font-weight:400;
+font-weight:300;
 color:#222;
 text-align:center;
 }
@@ -244,8 +244,8 @@ width:100%;
 .project img:hover,.projecttext:hover + img {
 -webkit-filter:grayscale(1) brightness(15%);
 filter:grayscale(1) brightness(15%);
--webkit-transition:all 1s ease-out;
-transition:all 1s ease-out;
+-webkit-transition:all .5s ease-out;
+transition:all .5s ease-out;
 }
 
 .projecttext {
@@ -266,12 +266,12 @@ padding:10px;
 
 .projecttext a:hover {
 font-family:'Hind';
-font-weight:400;
+font-weight:300;
 text-align:center;
 color:#fff;
 background-color:#222;
--webkit-transition:all 1s ease-out;
-transition:all 1s ease-out;
+-webkit-transition:all .5s ease-out;
+transition:all .5s ease-out;
 text-decoration:none;
 }
 
@@ -341,7 +341,7 @@ transform:translate(-50%,-50%);
 }
 
 .biglink {
--webkit-transition:all .7s ease;
+-webkit-transition:all .5s ease;
 transition:all 1s ease;
 border-bottom:thick dotted #222;
 color:#222;
@@ -353,7 +353,7 @@ color:#fff;
 text-decoration:none;
 background-color:#222;
 border-bottom:none;
-padding:10px;
+padding:8px;
 }
 
 .projcontainer {
