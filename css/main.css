@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Hind:400,300,500,700);
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
 body {
 font-family:'Hind';
 font-weight:300;
@@ -142,7 +142,7 @@ height:50px;
 background-color:#04435c;
 }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 780) {
 body {
 font-family:'Hind';
 font-weight:300;
