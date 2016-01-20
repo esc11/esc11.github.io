@@ -19,6 +19,7 @@ header {
 background-image:url(/img/merp.jpg);
 background-size:cover;
 background-repeat:no-repeat;
+background-position:0px -120px;
 height:220px;
 width:auto;
 }
@@ -72,11 +73,12 @@ font-family:'Hind';
 z-index:90;
 top:50%;
 left:50%;
-color:#fff;
-background-color:#04435c;
+color:#EEFF9B;
+background-color:#00706F;
 text-transform:uppercase;
-font-size:1.3em;
+font-size:1.5em;
 margin:0px;
+padding:20px;
 }
 
 .projecttext a {
@@ -87,8 +89,8 @@ p {
 width:100%;
 font-family:'Hind';
 font-weight:300;
-padding-left:1em;
-padding-right:1em;
+padding-left:3em;
+padding-right:3em;
 color:#04435c;
 }
 
@@ -103,7 +105,7 @@ text-decoration:none;
 
 #map {
 position:relative;
-width:80%;
+width:20em;
 margin:auto;
 padding-bottom:20px;
 }
@@ -124,7 +126,7 @@ letter-spacing:2px;
 text-transform:uppercase;
 background-color:#04435c;
 color:#fff;
-padding:6px;
+padding:8px;
 margin:-1px;
 }
 
