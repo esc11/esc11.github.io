@@ -3,4 +3,5 @@ $(document).ready(function() {
 		$('img').attr('width','250');
 		$( "<br><br>" ).insertAfter( ".biglink" );
 	}
+	$("a[href^='http']").attr('target','_blank');
 });

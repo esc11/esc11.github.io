@@ -1,7 +1,7 @@
 'use strict';
 
 $(document).ready(function() {
-	if ($("header").css("height") == "350px" ){
+	if ($("header").css("height") >= "350px" ){
 	    $(".projecttext, .place").css("display","none");
 		$(".project").mouseenter(function() {
 		  $( this ).find(".projecttext").fadeIn(600);
@@ -19,6 +19,7 @@ $(document).ready(function() {
 		$('.project img').click(function() {
             window.location.href = this.id + '.html';
         });
+        $('nav').css("display","none");
 	}
 	$('a').click(function(){
 	    $('html, body').animate({
@@ -27,14 +28,4 @@ $(document).ready(function() {
 	    return false;
 	});
 	$("a[href^='http']").attr('target','_blank');
-	$('.col-sm-4').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		closeOnContentClick: true,
-		mainClass: 'mfp-img-mobile',
-		image: {
-			verticalFit: true
-		}
-		
-	});
 });
