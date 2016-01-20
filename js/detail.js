@@ -4,4 +4,5 @@ $(document).ready(function() {
 		$( "<br><br>" ).insertAfter( ".biglink" );
 	}
 	$("a[href^='http']").attr('target','_blank');
+	$('nav').css("display","none");
 });
