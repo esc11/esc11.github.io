@@ -19,7 +19,6 @@ $(document).ready(function() {
 		$('.project img').click(function() {
             window.location.href = this.id + '.html';
         });
-        $('nav').css("display","none");
 	}
 	$('a').click(function(){
 	    $('html, body').animate({

@@ -8,7 +8,11 @@ text-align:center;
 }
 
 nav {
-display:none;
+height:50px;
+font-family:'Hind';
+font-weight: 700;
+font-size:18px;
+margin-top:20px;
 }
 
 nav a {
@@ -19,8 +23,8 @@ header {
 background-image:url(/img/merp.jpg);
 background-size:cover;
 background-repeat:no-repeat;
-background-position:0px -120px;
-height:220px;
+background-position:center center;
+height:200px;
 width:auto;
 }
 
@@ -35,50 +39,33 @@ text-transform:uppercase;
 }
 
 #headtext h1 {
-letter-spacing:4px;
-font-weight:700;
+display:none;
 }
 	
 #headtext h3 {
-margin-top:-3px;
-font-weight:300;
+margin-top:40px;
+font-size:33px;
+font-weight:500;
 }
 
 #headtext i {
 color:#EEFF9B;
 }
 
-
 .mycontainer h1 {
-font-family:'Hind';
-font-weight:300;
-font-size:2em;
-font-weight:700;
-padding:10px;
-margin-top:10px;
-color:#04435c;
-}
+display:none;
+}	
 
-.project {
-position:relative;
-margin-bottom:20px;
+h1 + p {
+padding-top:30px;
 }
 
 .project img {
 width:100%;
 }
 
-.projecttext h1 {
-font-family:'Hind';
-z-index:90;
-top:50%;
-left:50%;
-color:#EEFF9B;
-background-color:#00706F;
-text-transform:uppercase;
-font-size:1.5em;
-margin:0px;
-padding:20px;
+.projecttext {
+display:none;
 }
 
 .projecttext a {
