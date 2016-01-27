@@ -5,6 +5,6 @@ $(document).ready(function() {
 	}
 	$("a[href^='http']").attr('target','_blank');
 	$('nav').css("display","none");
-	$('.mycontainer h1').css("display","none");
+	$('.mycontainer h1').css("display","block");
 	}
 });
