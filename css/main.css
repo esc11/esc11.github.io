@@ -92,29 +92,30 @@ text-decoration:none;
 
 #map {
 position:relative;
-width:20em;
+width:40em;
 margin:auto;
 padding-bottom:20px;
 }
 
-.svg {
-display:none;
-}
-
 .pin {
-display:none;
+display:inline-block;
+width:10em;
 }
 	
 .place {
-display:block;
+display:inline-block;
+margin:10px;
+}
+	
+.cityname {
 font-family:'Hind';
 font-weight:700;
+font-size:1.5em;
 letter-spacing:2px;
 text-transform:uppercase;
-background-color:#04435c;
 color:#fff;
-padding:8px;
-margin:-1px;
+padding:10px;
+margin-top:-40px;
 }
 
 .biglink {
@@ -279,61 +280,30 @@ color:#00706F;
 
 #map {
 position:relative;
-width:60%;
+width:40em;
 margin:auto;
-padding: 20px;
-}
-
-.svg {
-width:100%;
+padding-bottom:20px;
 }
 
 .pin {
-position:absolute;
-width:2%;
-animation:bounce 2s infinite;
--webkit-animation:bounce 2s infinite;
--moz-animation:bounce 2s infinite;
--o-animation:bounce 2s infinite;
+display:inline-block;
+width:10em;
 }
-
-#sea {
-top:18.5%;
-left:14.5%;
--webkit-backface-visibility: hidden;
--webkit-transform: translateX(0);
-}
-
-#la {
-top:24.5%;
-left:15.5%;
-}
-
-#chi {
-top:21%;
-left:23.5%;
-}
-
-#spore {
-top:42.5%;
-left:73%;
-}
-
-#seoul {
-top:23.5%;
-left:79.3%;
-}
-
+	
 .place {
-position:absolute;
-top:30%;
-left:50%;
-padding:10px;
-background-color:#222;
-color:#fff;
-text-transform:uppercase;
+display:inline-block;
+margin:10px;
+}
+	
+.cityname {
+font-family:'Hind';
 font-weight:700;
-transform:translate(-50%,-50%);
+font-size:1.5em;
+letter-spacing:2px;
+text-transform:uppercase;
+color:#fff;
+padding:10px;
+margin-top:-60px;
 }
 
 .biglink {

@@ -2,18 +2,12 @@
 
 $(document).ready(function() {
 	if ($("header").css("height") >= "350px" ){
-	    $(".projecttext, .place").css("display","none");
+	    $(".projecttext").css("display","none");
 		$(".project").mouseenter(function() {
 		  $( this ).find(".projecttext").fadeIn(600);
 		});
 		$(".project").mouseleave(function() {
 		  $( this ).find(".projecttext").fadeOut(600);
-		});
-	    $(".pin").mouseenter(function() {
-			$(this).next().fadeIn(600);
-		});
-		$(".pin").mouseleave(function() {
-			$(this).next().fadeOut(600);
 		});
 	} else {
 		$('.project img').click(function() {
