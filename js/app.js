@@ -9,6 +9,7 @@ $(document).ready(function() {
 		$(".project").mouseleave(function() {
 		  $( this ).find(".projecttext").fadeOut(600);
 		});
+        $('#mapAll').css("display","none");
 	} else {
 		$('.project img').click(function() {
             window.location.href = this.id + '.html';
