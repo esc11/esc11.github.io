@@ -1,18 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Hind:400,300,500,700);
-@media screen and (max-width: 788px) {
+@media screen and (max-width: 1200px) {
 body {
 font-family:'Hind';
 font-weight:300;
-color:#04435c;
 text-align:center;
 }
 
 nav {
-height:50px;
+height:70px;
 font-family:'Hind';
 font-weight: 700;
-font-size:18px;
-margin-top:20px;
+font-size:1.5em;
+padding-top:20px;
+background-image:url('/img/tiny_grid.png');
 }
 
 nav a {
@@ -20,45 +20,22 @@ display:none;
 }
 
 header {
-background-image:url(/img/merp.jpg);
-background-size:cover;
-background-repeat:no-repeat;
-background-position:center center;
-height:200px;
-width:auto;
+display:none;
 }
 
 #headtext {
-position:absolute;
-width:100%;
-font-family:'Hind';
-font-weight:700;
-color:#EEFF9B;
-margin-top:30px;
-text-transform:uppercase;
-}
-
-#headtext h1 {
 display:none;
 }
-	
-#headtext h3 {
-margin-top:40px;
-font-size:33px;
-font-weight:500;
-}
-
-#headtext i {
-color:#EEFF9B;
-}
-
 .mycontainer h1 {
-display:none;
+font-family:'Hind';
+text-transform:uppercase;
+font-weight:300;
+font-size:1em;
+color:#222;
+font-weight:600;
+text-align:left;
+padding-left:2em;
 }	
-
-h1 + p {
-padding-top:30px;
-}
 
 .project img {
 width:100%;
@@ -71,19 +48,17 @@ display:none;
 .projecttext a {
 display:none;
 }
-
 p {
 width:100%;
+text-align:left;
 font-family:'Hind';
-font-weight:300;
-padding-left:3em;
-padding-right:3em;
-color:#04435c;
+font-size:1em;
+padding-left:2em;
+padding-right:4em;
 }
 
 p a {
 border-bottom:thick dotted #04435c;
-color:#04435c;
 }
 
 p a {
@@ -91,47 +66,32 @@ text-decoration:none;
 }
 
 #map {
-position:relative;
-width:40em;
-margin:auto;
-padding-bottom:20px;
+display:none;
 }
 
-.pin {
-display:inline-block;
-width:10em;
+.imgbar img {
+width:100%;
 }
-	
-.place {
-display:inline-block;
-margin:10px;
-}
-	
-.cityname {
-font-family:'Hind';
-font-weight:700;
-font-size:1.5em;
-letter-spacing:2px;
-text-transform:uppercase;
-color:#fff;
-padding:10px;
-margin-top:-40px;
+
+#resume {
+transform:translate(0%,20%);
+height:10em;
 }
 
 .biglink {
-color:#fff;
 text-decoration:none;
+background-color:#222;
+color:#fff;
 border-bottom:none;
-background-color:#04435c;
-padding:6px;
+padding:20px;
 }
 	
 footer {
 height:50px;
-background-color:#04435c;
+background-color:#222;
 }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
 body {
 font-family:'Hind';
 font-weight:300;
@@ -184,7 +144,7 @@ height:350px;
 #headtext {
 position:absolute;
 height:400px;
-top:55%;
+top:60%;
 left:50%;
 transform:translate(-50%,-50%);
 font-family:'Hind';
@@ -196,11 +156,6 @@ text-transform:uppercase;
 font-size:3.45em;
 letter-spacing:4px;
 font-weight:700;
-}
-
-#headtext h3 {
-margin-top:-3px;
-font-weight:300;
 }
 
 #headtext i {
@@ -216,8 +171,8 @@ animation:bounce 2s infinite;
 font-family:'Hind';
 font-weight:300;
 font-size:1.4em;
-padding-top:40px;
-padding-bottom:10px;
+padding-top:20px;
+padding-bottom:20px;
 }
 
 .mycontainer h1 {
@@ -240,8 +195,8 @@ width:100%;
 .project img:hover,.projecttext:hover + img {
 -webkit-filter:sepia(1) brightness(30%) hue-rotate(140deg) saturate(200%);
 filter:sepia(1) brightness(20%) hue-rotate(130deg) saturate(200%);
--webkit-transition:all .3s ease-out;
-transition:all .3s ease-out;
+-webkit-transition:all .1s ease-out;
+transition:all .1s ease-out;
 }
 
 .projecttext {
@@ -277,7 +232,12 @@ padding-left:10em;
 padding-right:10em;
 color:#00706F;
 }
-
+.imgbar {
+margin-top:50px;
+}
+.imgbar img {
+width:100%;
+}
 #map {
 position:relative;
 width:40em;
@@ -333,6 +293,7 @@ padding-left:2.7em;
 .projcontainer p {
 padding-left:5em;
 padding-right:0em;
+font-size:0.7em;
 }
 
 .projcontainer a {
@@ -350,12 +311,10 @@ padding-bottom:10px;
 }
 
 footer {
-margin-top:50px;
 height:50px;
 background-color:#00706F;
 }
 }
-
 @-webkit-keyframes bounce {
  0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
  40% {-webkit-transform: translateY(-20px);}
