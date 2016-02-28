@@ -78,6 +78,11 @@ transform:translate(0%,20%);
 height:10em;
 }
 
+a .biglink {
+margin-top:50px;
+margin-bottom:50px;
+}
+
 .biglink {
 text-decoration:none;
 background-color:#222;
@@ -181,6 +186,7 @@ font-weight:300;
 font-size:1.4em;
 padding-top:20px;
 padding-bottom:20px;
+margin-top:20px;
 }
 
 .mycontainer h1 {
