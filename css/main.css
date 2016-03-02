@@ -148,18 +148,24 @@ height:60px;
 }
 
 header {
+position:relative;
 background-image:url(/img/merp.jpg);
 background-size:cover;
 background-position:0 -200px;
 height:350px;
 }
 
-#headtext {
+
+
+header #headtext {
 position:absolute;
-height:400px;
-top:60%;
+top:50%;
 left:50%;
-transform:translate(-50%,-50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 font-family:'Hind';
 color:#EEFF9B;
 text-transform:uppercase;
