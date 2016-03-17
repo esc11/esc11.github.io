@@ -123,8 +123,9 @@ font-family:'Hind';
 font-weight:700;
 height:60px;
 font-size:1.1em;
-text-align:left;
-padding:17px 17px 17px 50px;
+text-align:center;
+padding-top:20px;
+padding-bottom:20px;
 color:#00706F;
 }
 
@@ -198,10 +199,13 @@ margin-top:20px;
 .mycontainer h1 {
 color:#00706F;
 font-weight:700;
+font-size:1.8em;
 }
 
 .project {
 position:relative;
+float:left;
+width:50%;
 }
 	
 .project h1 {
