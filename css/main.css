@@ -1,102 +1,88 @@
-@import url(https://fonts.googleapis.com/css?family=Hind:400,300,500,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,800);
 @media screen and (max-width: 1200px) {
 body {
-font-family:'Hind';
+width:100%;
+font-family:'Brandon Grotesque';
 font-weight:300;
+color:#222222;
 text-align:center;
 }
-
+	
 nav {
-height:70px;
-font-family:'Hind';
-font-weight: 700;
-font-size:1.5em;
-padding-top:20px;
-background-image:url('/img/tiny_grid.png');
-}
-
-nav a {
-display:none;
-}
-
-header {
-display:none;
-}
-
-#headtext {
-display:none;
-}
-.mycontainer h1 {
-font-family:'Hind';
+width:100%;
+z-index:100;
+background-color:#fff;
+font-family:'Brandon Grotesque';
+font-weight:800;
+height:4em;
+font-size:1.3em;
+color:#222222;
 text-transform:uppercase;
-font-weight:300;
-font-size:1em;
-color:#222;
-font-weight:600;
-text-align:left;
-padding-left:2em;
-}	
+padding-top:1.5em;
+text-align:center;
+}
+	
+.links {
+display:none;
+}
 
+.name {
+text-transform:uppercase;
+letter-spacing:.2em;
+}
 .project img {
 width:100%;
 }
-
 .projecttext {
 display:none;
 }
-
 .projecttext a {
 display:none;
 }
 p {
 width:100%;
 text-align:left;
-font-family:'Hind';
+font-family:'Open Sans';
 font-size:1em;
 padding-left:2em;
 padding-right:4em;
 }
-
-p a {
-border-bottom:thick dotted #04435c;
+.projheader {
+font-family:'Brandon Grotesque';
+font-weight:800;
+padding-top:2em;
+text-align:center;
+margin:auto;
+width:90%;
 }
 
-p a {
-text-decoration:none;
+.projheader h1 {
+font-weight:800;
+text-transform:uppercase;
+letter-spacing:.1em;
+}
+	
+.projheader p {
+font-weight:400;
+font-size:1em;
 }
 
-#map {
-display:none;
-}
-
-.imgbar img {
+.linkcontainer {
 width:100%;
+display:block;
+text-align:center;
+padding:1.5em;
+letter-spacing:.1em;
+line-height:2.8em;
 }
-
-#resume {
-transform:translate(0%,20%);
-height:10em;
-}
-
-a .biglink {
-margin-top:50px;
-margin-bottom:50px;
-}
-
-.biglink {
-text-decoration:none;
-background-color:#222;
-color:#fff;
-border-bottom:none;
-padding:20px;
-}
-
 .proj-link {
+font-family:'Brandon Grotesque';
+font-weight:500;
 text-decoration:none;
 background-color:#222;
 color:#fff;
 border-bottom:none;
-padding:6px;
+padding:10px;
 }
 
 .projcontainer {
@@ -114,7 +100,8 @@ margin-right: auto;
 }	
 	
 .projcontainer p {
-font-size: 1.2em;
+font-size: 1em;
+padding:
 }	
 	
 footer {
@@ -124,110 +111,91 @@ background-color:#222;
 }
 @media screen and (min-width: 1200px) {
 body {
-font-family:'Hind';
+width:100%;
+font-family:'Brandon Grotesque';
 font-weight:300;
-color:#00706F;
-text-align:center;
+color:#222222;
+text-align:left;
 }
 
+#da {
+width:80%;
+margin:auto;
+padding:5em;
+}	
+	
 nav {
-position:fixed;
 width:100%;
 top:0;
 left:0;
 z-index:100;
 background-color:#fff;
-font-family:'Hind';
-font-weight:700;
-height:60px;
-font-size:1.1em;
-text-align:center;
-padding-top:20px;
-padding-bottom:20px;
-color:#00706F;
-}
-
-nav a {
--webkit-transition:all .7s ease;
-transition:all .7s ease;
-color:#00706F;
-margin-right:30px;
-padding:10px;
-}
-
-nav a:hover,nav a:focus {
-background-color:#04435c;
-text-decoration:none;
-color:#EEFF9B;
-padding:10px;
-}
-
-#space {
-height:60px;
-}
-
-header {
-position:relative;
-background-image:url(/img/merp.jpg);
-background-size:cover;
-background-position:0 -200px;
-height:350px;
-}
-
-
-
-header #headtext {
-position:absolute;
-top:50%;
-left:50%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-font-family:'Hind';
-color:#EEFF9B;
+font-family:'Brandon Grotesque';
+font-weight:800;
+height:50px;
+font-size:1.3em;
+color:#222222;
 text-transform:uppercase;
 }
 
-#headtext h1 {
-font-size:3.45em;
-letter-spacing:4px;
-font-weight:700;
+.links a {
+font-weight:400;
+color:#222222;
+letter-spacing:.1em;
+font-size:.9em;
+padding:10px;
 }
 
-#headtext i {
-margin-top:20px;
-color:#EEFF9B;
-animation:bounce 2s infinite;
--webkit-animation:bounce 2s infinite;
--moz-animation:bounce 2s infinite;
--o-animation:bounce 2s infinite;
+.links a:hover,.links a:focus {
+border-bottom:solid;
+text-decoration:none;
+color:#222222;
+-webkit-transition:all .3s ease;
+transition:all .3s ease;
+}
+
+.name {
+text-transform:uppercase;
+letter-spacing:.2em;
 }
 
 .mycontainer {
-font-family:'Hind';
-font-weight:300;
-font-size:1.4em;
-padding-top:20px;
-padding-bottom:20px;
-margin-top:20px;
+font-family:'Open Sans';
+font-weight:400;
+font-size:1em;
+padding-top:2em;
 }
 
 .mycontainer h1 {
-color:#00706F;
-font-weight:700;
-font-size:1.8em;
+font-family:'Brandon Grotesque';
+font-family:700;
+color:#222222;
+font-weight:800;
+font-size:1.7em;
+text-transform: uppercase;
+margin-bottom:1em;
 }
 
+.img-row {
+  display: flex;
+  justify-content: space-between;
+	margin-bottom:1.5em;
+}
+	
 .project {
 position:relative;
 float:left;
 width:50%;
 }
 	
+.project + .project {
+	margin-left:2.5em;
+	margin-bottom:1em;
+}
 .project h1 {
+font-size:1.4em;
 color:#fff;
+text-align:center;
 }
 
 .project img {
@@ -235,8 +203,8 @@ width:100%;
 }
 
 .project img:hover,.projecttext:hover + img {
--webkit-filter:sepia(1) brightness(30%) hue-rotate(140deg) saturate(200%);
-filter:sepia(1) brightness(20%) hue-rotate(130deg) saturate(200%);
+-webkit-filter:grayscale(1) brightness(30%);
+filter:grayscale(1) brightness(30%);
 -webkit-transition:all .1s ease-out;
 transition:all .1s ease-out;
 }
@@ -251,28 +219,40 @@ color:#fff;
 }
 
 .projecttext a {
-color:#00706F;
+color:#222222;
 background-color:#fff;
 font-size:.7em;
 padding:10px;
+-webkit-transition:all .3s ease-out;
+transition:all .3s ease-out;
 }
 
 .projecttext a:hover {
-font-family:'Hind';
+font-family:'Brandon Grotesque';
 font-weight:300;
 text-align:center;
-color:#EEFF9B;
+color:#222222;
 background-color:#04435c;
--webkit-transition:all .3s ease-out;
-transition:all .3s ease-out;
 text-decoration:none;
 }
-
-p {
-width:100%;
-padding-left:10em;
-padding-right:10em;
-color:#00706F;
+.projheader {
+font-family:'Brandon Grotesque';
+font-weight:800;
+padding-top:20px;
+padding-bottom:20px;
+text-align:center;
+margin:auto;
+}
+	
+.projheader h1 {
+font-weight:800;
+text-transform:uppercase;
+letter-spacing:.1em;
+}
+	
+.projheader p {
+font-weight:400;
+font-size:1.3em;
 }
 .imgbar {
 margin-top:50px;
@@ -280,81 +260,45 @@ margin-top:50px;
 .imgbar img {
 width:100%;
 }
-#map {
-position:relative;
-width:40em;
-margin:auto;
-padding-bottom:20px;
-}
 
-.pin {
-display:inline-block;
-width:10em;
+.linkcontainer {
+display:block;
+text-align:center;
+font-family:'Brandon Grotesque';
+font-weight:700;
+padding:2em;
+letter-spacing:.1em;
 }
 	
-.place {
-display:inline-block;
-margin:10px;
-}
-	
-.cityname {
-font-family:'Hind';
-font-weight:700;
-font-size:1.5em;
-letter-spacing:2px;
-text-transform:uppercase;
-color:#fff;
-padding:10px;
-margin-top:-60px;
-}
-
-.biglink {
--webkit-transition:all .5s ease;
-transition:all 1s ease;
-border-bottom:thick dotted #00706F;
-color:#00706F;
-font-weight:700;
-}
-
-.biglink:hover {
-color:#EEFF9B;
-text-decoration:none;
-background-color:#04435c;
-border-bottom:none;
-padding:8px;
-}
-
 .proj-link {
 -webkit-transition:all .5s ease;
 transition:all 1s ease;
 text-decoration:none;
-background-color:#00706F;
+background-color:#222222;
 color:#ffffff;
 border-bottom:none;
 padding:15px;
+
 }
 
 .proj-link:hover {
 text-decoration:none;
 background-color:#fff;
-color:#00706F;
+color:#222222;
 border-bottom:none;
 padding:6px;
 }
 
 .projcontainer {
 text-align:left;
-width:95%;
+width:100%;
 margin:0 auto;
-}
-
-.projcontainer h1 {
-padding-left:4.3em;
 }
 	
 .projcontainer img {
-padding:3em;
-width:85%;
+padding-top:5em;
+padding-bottom:5em;
+width:100%;
 display: block;
 margin-left: auto;
 margin-right: auto; 
@@ -362,32 +306,35 @@ margin-right: auto;
 }
 
 .projcontainer p {
-font-size:.8em;
+font-size:.9em;
 }
 
 footer {
 height:50px;
-background-color:#00706F;
+background-color:#222222;
 }
 }
-@-webkit-keyframes bounce {
- 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
- 40% {-webkit-transform: translateY(-20px);}
- 60% {-webkit-transform: translateY(-15px);}
+@font-face {
+ font-family: 'Brandon Grotesque';
+ font-style: normal;
+ font-weight: 400;
+ src: local('Brandon Grotesque Regular'), url(brandon_re-webfont.woff) format('woff'), url(brandon_re-webfont.woff2) format('woff2');
 }
- 
-@-moz-keyframes bounce {
- 0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
- 40% {-moz-transform: translateY(-10px);}
- 60% {-moz-transform: translateY(-5px);}
+@font-face {
+ font-family: 'Brandon Grotesque';
+ font-style: normal;
+ font-weight: 500;
+ src: local('Brandon Grotesque Medium'), url(Brandon_med-webfont.woff) format('woff'), url(Brandon_med-webfont.woff2) format('woff2');
 }
- 
-@-o-keyframes bounce {
- 0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
- 40% {-o-transform: translateY(-10px);}
- 60% {-o-transform: translateY(-5px);}
+@font-face {
+ font-family: 'Brandon Grotesque';
+ font-style: normal;
+ font-weight: 700;
+ src: local('Brandon Grotesque Bold'), url(Brandon_bld-webfont.woff) format('woff'), url(Brandon_bld-webfont.woff2) format('woff2');
 }
-@keyframes bounce {
- 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
- 40% {transform: translateY(-10px);}
- 60% {transform: translateY(-5px);}
+@font-face {
+ font-family: 'Brandon Grotesque';
+ font-style: normal;
+ font-weight: 800;
+ src: local('Brandon Grotesque Black'), url(Brandon_blk-webfont.woff) format('woff'), url(Brandon_blk-webfont.woff2) format('woff2');
+}
