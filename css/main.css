@@ -324,17 +324,17 @@ background-color:#222222;
  font-family: 'Brandon Grotesque';
  font-style: normal;
  font-weight: 500;
- src: local('Brandon Grotesque Medium'), url(Brandon_med-webfont.woff) format('woff'), url(Brandon_med-webfont.woff2) format('woff2');
+ src: local('Brandon Grotesque Medium'), url(brandon_med-webfont.woff) format('woff'), url(brandon_med-webfont.woff2) format('woff2');
 }
 @font-face {
  font-family: 'Brandon Grotesque';
  font-style: normal;
  font-weight: 700;
- src: local('Brandon Grotesque Bold'), url(Brandon_bld-webfont.woff) format('woff'), url(Brandon_bld-webfont.woff2) format('woff2');
+ src: local('Brandon Grotesque Bold'), url(brandon_bld-webfont.woff) format('woff'), url(brandon_bld-webfont.woff2) format('woff2');
 }
 @font-face {
  font-family: 'Brandon Grotesque';
  font-style: normal;
  font-weight: 800;
- src: local('Brandon Grotesque Black'), url(Brandon_blk-webfont.woff) format('woff'), url(Brandon_blk-webfont.woff2) format('woff2');
+ src: local('Brandon Grotesque Black'), url(brandon_blk-webfont.woff) format('woff'), url(brandon_blk-webfont.woff2) format('woff2');
 }
