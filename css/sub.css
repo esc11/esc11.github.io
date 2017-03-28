@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400");
+@media screen and (min-width:800px) {
+body {
+width:100%;
+font-family:'DINPro';
+font-weight:300;
+color:#133b93;
+margin:0;
+padding:0;
+background-color:#fff;
+font-size:1em;
+line-height:1.5em;
+}
+  .moon {
+    padding-top:3%;
+    padding-bottom:5%;
+    padding-left:20%;
+    padding-right:20%;
+  }
+  h1 {
+    text-transform: uppercase;
+    font-family:'DINPro';
+    font-weight:700;
+    font-size:4em;
+  }
+  img {
+    width:100%;
+  }
+  p {
+    padding-top:1em;
+    padding-bottom:1em;
+  }
+}
+@media screen and (max-width:800px) {
+body {
+width:100%;
+font-family:'DINPro';
+font-weight:300;
+color:#133b93;
+margin:0;
+padding:0;
+background-color:#fff;
+font-size:.9em;
+letter-spacing:.03em;
+}
+  .moon {
+    padding:2em;
+  }
+  h1 {
+    text-transform: uppercase;
+    font-family:'DINPro';
+    font-weight:700;
+    font-size:3em;
+  }
+  img {
+    width:100%;
+  }
+  p {
+    padding-top:1em;
+    padding-bottom:1em;
+  }
+}
+@font-face {
+ font-family: 'DINPro';
+ font-style: normal;
+ font-weight: 700;
+ src: local('DINPro Bold'), url(DINPro-Bold.woff) format('woff'), url(DINPro-Bold.woff2) format('woff2');
+}
+@font-face {
+ font-family: 'DINPro';
+ font-style: normal;
+ font-weight: 400;
+ src: local('DINPro Regular'), url(DINPro-Regular.woff) format('woff'), url(DINPro-Regular.woff2) format('woff2');
+}

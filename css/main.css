@@ -1,354 +1,214 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,800);
-@media screen and (max-width: 1200px) {
+@media screen and (min-width:800px) {
 body {
 width:100%;
-font-family:'Brandon Grotesque';
-font-weight:300;
-color:#222222;
-text-align:center;
-}
-	
-nav {
-width:100%;
-z-index:100;
+font-family:'DINPro';
+font-weight:400;
+color:#fff;
+margin:0;
+padding:0;
 background-color:#fff;
-font-family:'Brandon Grotesque';
-font-weight:800;
-height:4em;
-font-size:1.3em;
-color:#222222;
-text-transform:uppercase;
-padding-top:1.5em;
-text-align:center;
 }
-	
-.links {
-display:none;
+header {
+background-image:url("/img/givingup copy.jpg");
+background-size:100%;
+background-repeat:no-repeat;
+background-position:center center;
+height:100vh;
+position:relative;
 }
-
-.name {
-text-transform:uppercase;
-letter-spacing:.2em;
+#title {
+	text-transform: uppercase;
+	padding:1em;
+	font-size:2.5em;
+	font-weight:700;
+	position:absolute;
+  letter-spacing:.4em;
+	white-space:nowrap;
+	top:50%;
+  left:50%;
+	transform: translate(-50%, -50%);
+	color:#fff;
 }
-.mycontainer h1 {
-font-family:'Brandon Grotesque';
-font-family:700;
-color:#222222;
-font-weight:800;
-font-size:1.7em;
-text-transform: uppercase;
-margin-bottom:1em;
-text-align:left;
-padding-left:1em;
+.bai {
+	padding:4em;
+	background-color:#fff;
+	color:#222;
+	position:relative;
 }
-.project img {
+#intr p {
+	font-size:1.2em;
+	margin-top:-1em;
+}
+.lan {
+	padding:4em;
+	background-color:#fff;
+	color:#222;
+	overflow:hidden;
+}
+#self {
+	float:right;
+  width:20em;
+	padding-left:8em;
+}
+h2 {
+	font-size:2.5em;
+}
+.lan a {
+	color: #222;
+}
+.lan p {
+	font-size:1.2em;
+}
+.circle {
+	background-color:#222;
+	width:2em;
+	height:2em;
+  -webkit-transition-duration: .75s;
+  transition-duration: .75s;
+  z-index:2;
+  position:absolute;
+	transition-timing-function: ease-in-out;
+	overflow:hidden;
+	border-bottom: 3px solid transparent;
+}
+.circle:hover {
+  width:15em;
+  height:10em;
+}
+.circle p {
+	color:#fff;
+	padding:1em;
+}
+.circle a{
+	color:#fff;
+}
+svg {
+	width:100%;
+	position:relative;
+	z-index:1;
+	padding-top:5em;
+}
+#yi {
+	top:24%;
+	left:44%;
+}
+#er {
+	top:40%;
+	left:45%;
+}
+#san {
+	top:50%;
+	left:16%;
+}
+#si {
+	top:70%;
+	left:60%;
+}
+#wu {
+	top:75%;
+	left:16%;
+}
+#liu {
+  top:83%;
+	left:28%;
+}
+/* Skew Forward */
+.hvr-skew-forward {
+  display: inline-block;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+.hvr-skew-forward:hover, .hvr-skew-forward:focus, .hvr-skew-forward:active {
+  -webkit-transform: skew(-15deg);
+  transform: skew(-15deg);
+}
+}
+@media screen and (max-width:800px) {
+body {
 width:100%;
+font-family:'DINPro';
+font-weight:400;
+margin:0;
+padding:0;
+background-color:#bd2a3c;
 }
-.projecttext {
-display:none;
+header {
+background-image:url("/img/hk-xl.jpg");
+background-size:100%;
+background-repeat:no-repeat;
+background-position:center bottom;
+height:100vh;
+position:relative;
 }
-.projecttext a {
-display:none;
+#title {
+	text-transform: uppercase;
+	padding:1em;
+	font-size:2em;
+	font-weight:700;
+	position:absolute;
+	top:1.5em;
+	left:0;
+	letter-spacing:.2em;
+	color:#fff;
+}
+.bai {
+	padding:1em;
+	background-color:#fff;
+	color:#133b93;
+}
+.lan {
+	padding:1em;
+	background-color:#133b93;
+	color:#ffc2b4;
+}
+img {
+	width:60%;
+}
+.namae {
+	display:block;
+	z-index:10;
+	position:relative;
+	color:#133b93;
+	text-transform:uppercase;
+	top:.5em;
+	letter-spacing:.2em;
+}
+svg {
+	display:none;
+}
+#self {
+	padding-top:3em;
+  width:60%;	
+}
+h2 {
+	font-size:2.5em;
 }
 p {
-width:100%;
-text-align:left;
-font-family:'Open Sans';
-font-size:1em;
-padding-left:2em;
-padding-right:4em;
+	font-size:1.2em;
+	margin-right:2em;
 }
-.projheader {
-font-family:'Brandon Grotesque';
-font-weight:800;
-padding-top:2em;
-text-align:center;
-margin:auto;
-width:90%;
-}
-
-.projheader h1 {
-font-weight:800;
-text-transform:uppercase;
-letter-spacing:.1em;
-}
-	
-.projheader p {
-font-weight:400;
-font-size:1em;
-}
-
-.linkcontainer {
-width:100%;
-display:block;
-text-align:center;
-padding:1.5em;
-letter-spacing:.1em;
-line-height:2.8em;
-}
-.proj-link {
-font-family:'Brandon Grotesque';
-font-weight:500;
-text-decoration:none;
-background-color:#222;
-color:#fff;
-border-bottom:none;
-padding:10px;
-}
-
-.projcontainer {
-text-align:left;
-width:90%;
-margin:0 auto;
-}	
-	
-.projcontainer img {
-padding:1.5em;
-width:90%;
-display: block;
-margin-left: auto;
-margin-right: auto; 
-}	
-	
-.projcontainer p {
-font-size: 1em;
-padding:
-}	
-.imgbar img {
-	width:100%;
-}
-footer {
-height:50px;
-background-color:#222;
-}
-}
-@media screen and (min-width: 1200px) {
-body {
-width:100%;
-font-family:'Brandon Grotesque';
-font-weight:300;
-color:#222222;
-text-align:left;
-}
-
-#da {
-width:80%;
-margin:auto;
-padding:5em;
-}	
-	
-nav {
-width:100%;
-top:0;
-left:0;
-z-index:100;
-background-color:#fff;
-font-family:'Brandon Grotesque';
-font-weight:800;
-height:50px;
-font-size:1.3em;
-color:#222222;
-text-transform:uppercase;
-}
-
-.links a {
-font-weight:400;
-color:#222222;
-letter-spacing:.2em;
-font-size:.9em;
-padding:10px;
-}
-
-.links a:hover,.links a:focus {
-border-bottom:solid;
-text-decoration:none;
-color:#222222;
--webkit-transition:all .3s ease;
-transition:all .3s ease;
-}
-
-.name {
-text-transform:uppercase;
-letter-spacing:.2em;
-}
-
-.mycontainer {
-font-family:'Open Sans';
-font-weight:400;
-font-size:1em;
-padding-top:2em;
-}
-
-.mycontainer h1 {
-font-family:'Brandon Grotesque';
-font-family:700;
-color:#222222;
-font-weight:800;
-font-size:1.7em;
-text-transform: uppercase;
-margin-bottom:1em;
-}
-
-.img-row {
-  display: flex;
-  justify-content: space-between;
-	margin-bottom:1.5em;
-}
-	
-.project {
-position:relative;
-float:left;
-width:50%;
-}
-	
-.project + .project {
-	margin-left:2.5em;
-	margin-bottom:1em;
-}
-.project h1 {
-font-size:1.4em;
-color:#fff;
-text-align:center;
-}
-
-.project img {
-width:100%;
-}
-
-.project img:hover,.projecttext:hover + img {
--webkit-filter:grayscale(1) brightness(30%);
-filter:grayscale(1) brightness(30%);
--webkit-transition:all .1s ease-out;
-transition:all .1s ease-out;
-}
-
-.projecttext {
-z-index:90;
-position:absolute;
-top:50%;
-left:50%;
-transform:translate(-50%,-50%);
-color:#fff;
-letter-spacing:.2em;
-}
-
-.projecttext a {
-color:#222222;
-background-color:#fff;
-font-size:.7em;
-padding:10px;
--webkit-transition:all .3s ease-out;
-transition:all .3s ease-out;
-}
-
-.projecttext a:hover {
-font-family:'Brandon Grotesque';
-font-weight:300;
-text-align:center;
-color:#222222;
-background-color:#04435c;
-text-decoration:none;
-}
-.projheader {
-font-family:'Brandon Grotesque';
-font-weight:800;
-padding-top:20px;
-padding-bottom:20px;
-text-align:center;
-margin:auto;
-}
-	
-.projheader h1 {
-font-weight:800;
-text-transform:uppercase;
-letter-spacing:.1em;
-}
-	
-.projheader p {
-font-weight:400;
-font-size:1.3em;
-}
-.imgbar {
-margin-top:50px;
-}
-.imgbar img {
-width:100%;
-}
-
-.linkcontainer {
-display:block;
-text-align:center;
-font-family:'Brandon Grotesque';
-font-weight:700;
-padding:2em;
-letter-spacing:.1em;
-}
-	
-.proj-link {
--webkit-transition:all .5s ease;
-transition:all 1s ease;
-text-decoration:none;
-background-color:#222222;
-color:#ffffff;
-border-bottom:none;
-padding:15px;
-
-}
-
-.proj-link:hover {
-text-decoration:none;
-background-color:#fff;
-color:#222222;
-border-bottom:none;
-padding:6px;
-}
-
-.projcontainer {
-text-align:left;
-width:100%;
-margin:0 auto;
-}
-	
-.projcontainer img {
-padding-top:5em;
-padding-bottom:5em;
-width:100%;
-display: block;
-margin-left: auto;
-margin-right: auto; 
-
-}
-
-.projcontainer p {
-font-size:.9em;
-}
-
-footer {
-height:50px;
-background-color:#222222;
+.lan a {
+	color: #ffc2b4;
 }
 }
 @font-face {
- font-family: 'Brandon Grotesque';
- font-style: normal;
- font-weight: 400;
- src: local('Brandon Grotesque Regular'), url(brandon_re-webfont.woff) format('woff'), url(brandon_re-webfont.woff2) format('woff2');
-}
-@font-face {
- font-family: 'Brandon Grotesque';
- font-style: normal;
- font-weight: 500;
- src: local('Brandon Grotesque Medium'), url(brandon_med-webfont.woff) format('woff'), url(brandon_med-webfont.woff2) format('woff2');
-}
-@font-face {
- font-family: 'Brandon Grotesque';
+ font-family: 'DINPro';
  font-style: normal;
  font-weight: 700;
- src: local('Brandon Grotesque Bold'), url(brandon_bld-webfont.woff) format('woff'), url(brandon_bld-webfont.woff2) format('woff2');
+ src: local('DINPro Bold'), url(DINPro-Bold.woff) format('woff'), url(DINPro-Bold.woff2) format('woff2');
 }
 @font-face {
- font-family: 'Brandon Grotesque';
+ font-family: 'DINPro';
  font-style: normal;
- font-weight: 800;
- src: local('Brandon Grotesque Black'), url(brandon_blk-webfont.woff) format('woff'), url(brandon_blk-webfont.woff2) format('woff2');
+ font-weight: 400;
+ src: local('DINPro Regular'), url(DINPro-Regular.woff) format('woff'), url(DINPro-Regular.woff2) format('woff2');
 }
