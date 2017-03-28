@@ -131,6 +131,9 @@ svg {
   -webkit-transform: skew(-15deg);
   transform: skew(-15deg);
 }
+#selp {
+	display:none;
+}
 }
 @media screen and (max-width:800px) {
 body {
@@ -170,22 +173,14 @@ position:relative;
 	background-color:#133b93;
 	color:#ffc2b4;
 }
-img {
-	width:60%;
-}
-.namae {
-	display:block;
-	z-index:10;
-	position:relative;
-	color:#133b93;
-	text-transform:uppercase;
-	top:.5em;
-	letter-spacing:.2em;
-}
 svg {
 	display:none;
 }
 #self {
+	display:none;
+}
+#selp {
+	display:inline-block;
 	padding-top:3em;
   width:60%;	
 }
@@ -211,4 +206,10 @@ p {
  font-style: normal;
  font-weight: 400;
  src: local('DINPro Regular'), url(DINPro-Regular.woff) format('woff'), url(DINPro-Regular.woff2) format('woff2');
+}
+@font-face {
+ font-family: 'DINPro';
+ font-style: normal;
+ font-weight: 300;
+ src: local('DINPro Light'), url(DINPro-Light.woff) format('woff'), url(DINPro-Light.woff2) format('woff2');
 }
